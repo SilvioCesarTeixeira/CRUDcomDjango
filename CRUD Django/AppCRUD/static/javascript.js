@@ -1,7 +1,7 @@
 (function(win,doc){
     'use strict';
 
-    //Verifica se o usuário realmente quer deletar o dado
+    // Verifica se o usuário realmente quer deletar o dado
     if(doc.querySelector('.btnDel')){
         let btnDel = doc.querySelectorAll('.btnDel');
         for(let i=0; i < btnDel.length; i++){
@@ -15,7 +15,7 @@
         }
     }
 
-    //Ajax do form
+    // Ajax do form
     if(doc.querySelector('#form')){
         let form=doc.querySelector('#form');
         function sendForm(event)
